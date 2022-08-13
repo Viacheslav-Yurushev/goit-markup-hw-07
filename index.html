@@ -19,36 +19,34 @@
   </head>
   <body>
     <!--HEADER-->
-    <header class="decorate-header">
-      <div class="container head-line">
-        <a href="./index.html" lang="en" class="logo-web link"
-          >Web<span class="logo-studio">Studio</span></a
-        >
-        <nav class="link-nav">
-          <ul class="list nav-line">
-            <li class="nav-item">
-              <a href="./index.html" class="menu link head-studio">Студія</a>
+    <header class="page-header">
+      <div class="container page-header_line">
+        <a href="./index.html" lang="en" class="logo logo_position link"
+          >Web<span class="logo_theme_light">Studio</span>
+          </a>
+        <nav class="navigation">
+          <ul class="nav-menu list">
+            <li class="nav-menu__item">
+              <a href="./index.html" class="nav-menu__link nav-menu__link_active link">Студія</a>
             </li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="menu link">Портфоліо</a>
+            <li class="nav-menu__item">
+              <a href="./portfolio.html" class="nav-menu__link link">Портфоліо</a>
             </li>
-            <li class="nav-item"><a href="" class="menu link">Контакти</a></li>
+            <li class="nav-menu__item"><a href="" class="nav-menu__link link">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="list head-contacks-line">
-          <li class="head-contacks-item">
-            <a href="mailto:info@devstudio.com" class="head-contacks link"
-              > <svg class="head-contacks-icon" width="16" height="12">
+        <ul class="header-contacts list">
+          <li class="contact">
+            <a href="mailto:info@devstudio.com" class="contact__item link"> 
+              <svg class="contact__icon">
                 <use href="./image/icon/sprites.svg#icon-envelope"></use>
-              </svg>info@devstudio.com</a
-            >
+              </svg>info@devstudio.com</a>
           </li>
-          <li class="head-contacks-item">
-            <a href="tel:+380961111111" class="head-contacks link icon-phone"
-              ><svg class="head-contacks-icon" width="10" height="16">
+          <li class="contacts">
+            <a href="tel:+380961111111" class="contact__item link">
+              <svg class="contact__icon" >
                 <use href="./image/icon/sprites.svg#icon-smartphone"></use>
-              </svg>+38 096 111 11 11</a
-            >
+              </svg>+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -57,7 +55,7 @@
       <!--HERO-->
       <section class="hero section">
         <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="btn " data-modal-open>Замовити послугу</button>
         </div>
       </section>
@@ -65,48 +63,48 @@
       <section class="section">
         <div class="container">
           <h2 class="hidden-title">--Hidden--Преимущества компании-----</h2>
-          <ul class="list quality-list">
-            <li class="quality-list-item">
-              <div class="quality-block">
-                <svg class="quality-icon">
+          <ul class="distinctive-list list">
+            <li class="distinctive">
+              <div class="distinctive__block">
+                <svg class="distinctive__icon">
                   <use href="./image/icon/sprites.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="quality-title">УВАГА ДssО ДЕТАЛЕЙ</h3>
-              <p class="quality-item">
+              <h3 class="distinctive__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="distinctive__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="quality-list-item">
-              <div class="quality-block">
-                <svg class="quality-icon">
+            <li class="distinctive">
+              <div class="distinctive__block">
+                <svg class="distinctive__icon">
                   <use href="./image/icon/sprites.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="quality-title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="quality-item">
+              <h3 class="distinctive__title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="distinctive__text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li class="quality-list-item">
-              <div class="quality-block">
-                <svg class="quality-icon">
+            <li class="distinctive">
+              <div class="distinctive__block">
+                <svg class="distinctive__icon">
                   <use href="./image/icon/sprites.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="quality-title">ПЛАНУВАННЯ</h3>
-              <p class="quality-item">
+              <h3 class="distinctive__title">ПЛАНУВАННЯ</h3>
+              <p class="distinctive__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="quality-list-item">
-              <div class="quality-block">
-                <svg class="quality-icon">
+            <li class="distinctive">
+              <div class="distinctive__block">
+                <svg class="distinctive__icon">
                   <use href="./image/icon/sprites.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="quality-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="quality-item">
+              <h3 class="distinctive__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="distinctive__text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -116,7 +114,7 @@
       <!--Чем занимаемся -->
       <section class="section what-doing">
         <div class="container">
-          <h2 class="section-title">Чим ми займаємося</h2>
+          <h2 class="section__title">Чим ми займаємося</h2>
         <ul class="list works-list">
           <li class="work-list-item">
             <img
@@ -151,7 +149,7 @@
       <!--Наша команда-->
       <section class="employees section">
         <div class="container">
-        <h2 class="section-title">Наша команда</h2>
+        <h2 class="section__title">Наша команда</h2>
         <ul class="list employees-list">
           <li class="employees-item">
             <img class="employee-photo"
@@ -323,7 +321,7 @@
       <!--Постійні клієнти-->
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Постійні клієнти</h2>
+          <h2 class="section__title">Постійні клієнти</h2>
           <ul class="list clients-list">
             <li class="client-list-item">
               <a class="client-link" href="">

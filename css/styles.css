@@ -51,7 +51,7 @@ button {
   margin-right: auto;
 }
 
-.section-title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -77,16 +77,16 @@ button {
 }
 
 /* -----HEADER---- */
-.decorate-header {
+.page-header {
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
-.head-line {
+.page-header_line{
   display: flex;
   align-items: center;
 }
-.logo-web,
-.logo-web-footer {
+.logo,
+.logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -94,30 +94,30 @@ button {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.logo-web {
+.logo_position {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
 }
-.logo-studio {
+.logo_theme_light {
   color: #000000;
 }
-.nav-line {
+.nav-menu {
   display: flex;
 }
-.nav-item {
+.nav-menu__item {
   position: relative;
 }
-.nav-item:not(:last-child) {
+.nav-menu__item:not(:last-child) {
   margin-right: 50px;
 }
-.menu,
-.head-contacks {
+.nav-menu__link,
+.contact__item {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.menu {
+.nav-menu__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -127,19 +127,19 @@ button {
   transition-duration: var(--transform-durac);
   transition-timing-function: var(--transition-func);
 }
-.menu:hover,
-.menu:focus {
+.nav-menu__link:hover,
+.nav-menu__link:focus {
   color: var(--accent-color);
 }
-.head-contacks-line {
+.header-contacts {
   display: flex;
   margin-left: auto;
 }
 
-.head-contacks-item:not(:last-child) {
+.contact:not(:last-child) {
   margin-right: 50px;
 }
-.head-contacks {
+.contact__item {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -151,16 +151,16 @@ button {
   transition-duration: var(--transform-durac);
   transition-timing-function: var(--transition-func);
 }
-.head-contacks:hover,
-.head-contacks:focus {
+.contact__item:hover,
+.contact__item:focus {
   fill: currentColor;
   color: var(--accent-color);
 }
-.head-studio {
+.nav-menu__link_active {
   position: relative;
   color: var(--accent-color);
 }
-.head-studio::after {
+.nav-menu__link_active::after {
   content: "";
   position: absolute;
   left: 0;
@@ -171,9 +171,13 @@ button {
   background-color: var(--accent-color);
   border-radius: 2px;
 }
-.head-contacks-icon {
+.contact__icon {
   fill: currentColor;
-  margin-right: 10px;
+}
+.contact__item .contact__icon{
+width: 10px;
+height: 16px;
+    margin-right: 10px;
 }
 
 /* -----/HEADER---- */
@@ -195,7 +199,7 @@ button {
   background-position: center;
   background-repeat: no-repeat;
 }
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -203,9 +207,7 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color-dark-terms);
-
   max-width: 696px;
-
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -236,10 +238,13 @@ button {
 
 /* ----Преимущества компании ---- */
 
-.quality-list {
+.distinctive-list {
   display: flex;
 }
-.quality-title {
+.distinctive:not(:last-child) {
+  margin-right: 30px;
+}
+.distinctive__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -248,7 +253,7 @@ button {
   color: var(--secondary-text-color);
   margin-bottom: 10px;
 }
-.quality-block {
+.distinctive__block {
   display: flex;
   height: 120px;
   justify-content: center;
@@ -257,19 +262,16 @@ button {
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-.quality-icon {
+.distinctive__icon {
   width: 70px;
   height: 70px;
 }
-
-.quality-item {
+.distinctive__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.quality-list-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 /* ----/Преимущества компании ---- */
 
 /* ----Чем занимаемся ---- */
@@ -303,7 +305,7 @@ button {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.container .section-title {
+.container .section__title {
   margin-bottom: 50px;
 }
 /* ----/Чем занимаемся ---- */
@@ -434,7 +436,7 @@ button {
 .fblock-left {
   margin-right: 70px;
 }
-.logo-web-footer {
+.logo-footer {
   padding-top: 0;
   padding-bottom: 0;
   margin-right: 0;
