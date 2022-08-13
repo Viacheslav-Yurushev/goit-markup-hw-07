@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!--хедер-->
+    <header class="decorate-header">
+      <div class="container head-line">
+        <a href="./index.html" lang="en" class="logo-web link"
+          >Web<span class="logo-studio">Studio</span></a
+        >
+        <nav class="link-nav">
+          <ul class="list nav-line">
+            <li class="nav-item">
+              <a href="./index.html" class="menu link">Студія</a>
+            </li>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="menu link head-portfolio"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="nav-item"><a href="" class="menu link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="list head-contacks-line">
+          <li class="head-contacks-item">
+            <a href="mailto:info@devstudio.com" class="head-contacks link">
+              <svg class="head-contacks-icon" width="16" height="12">
+                <use href="./image/icon/sprites.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="head-contacks-item">
+            <a href="tel:+380961111111" class="head-contacks link icon-phone"
+              ><svg class="head-contacks-icon" width="10" height="16">
+                <use href="./image/icon/sprites.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="hidden-title">----Hidden-----Наше Портфолио</h1>
+          <!--список фильтров-->
+          <ul class="list menu-filter">
+            <li><button type="button" class="btn-filter">Все</button></li>
+            <li><button type="button" class="btn-filter">Веб-сайти</button></li>
+            <li><button type="button" class="btn-filter">Додатки</button></li>
+            <li><button type="button" class="btn-filter">Дизайн</button></li>
+            <li><button type="button" class="btn-filter">Маркетинг</button></li>
+          </ul>
+          <!-- перечень работ портфолио -->
+          <ul class="list our-works">
+            <li class="our-works-item">
+              <a href="" class="link our-works-link">
+                <div class="about-background">
+                  <img
+                  class="our-work-img"
+                  src="./image/portgolio/tehnocrack.jpg"
+                  alt="Технокряк"
+                  width="370"
+                />
+                <p class="our-work-about">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу</p>
+              </div>
+                <div class="portfolio-border">
+                  <h2 class="portfolio-name">Технокряк</h2>
+                  <p class="porfolio-item">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="our-works-item">
+              <a href="" class="link our-works-link">
+                <div class="about-background"> 
+                  <img
+                  class="our-work-img"
+                  src="./image/portgolio/post.jpg"
+                  alt="два баскетболиста"
+                  width="370"
+                />
+                 <p class="our-work-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis saepe esse, ea repudiandae architecto.
+                 </p>
+              </div>
+                <div class="portfolio-border">
+                  <h2 class="portfolio-name">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h2>
+                  <p class="porfolio-item">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="our-works-item">
+              <a href="" class="link our-works-link">
+                <div class="about-background"> 
+                  <img
+                  class="our-work-img"
+                  src="./image/portgolio/restaurant.jpg"
+                  alt="логотип ресторана"
+                  width="370"
+                />
+                  <p class="our-work-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis saepe esse, ea repudiandae architecto.
+                  </p>
+              </div>
+                <div class="portfolio-border">
+                  <h2 class="portfolio-name">
+                    Ресторан <span lang="en">Seafood</span>
+                  </h2>
+                  <p class="porfolio-item">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="our-works-item">
+              <a href="" class="link our-works-link">
+                <div class="about-background"> 
+                  <img
+                  class="our-work-img"
+                  src="./image/portgolio/project-prime.jpg"
+                  alt="навушники"
+                  width="370"
+                />
+                 <p class="our-work-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis saepe esse, ea repudiandae architecto. Totam, possimus nihil et in pariatur praesentium rerum, quam cum, cupiditate modi voluptatibus aperiam a
+                 </p>
+              </div>
+                <div class="portfolio-border">
+                  <h2 class="portfolio-name">
+                    Проєкт <span lang="en">Prime</span>
+                  </h2>
+                  <p class="porfolio-item">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="our-works-item"> <a href="" class="link our-works-link">
+              <div class="about-background"> 
+                <img
+                class="our-work-img"
+                src="./image/portgolio/project-boxes.jpg"
+                alt="две коробки"
+                width="370"
+              />
+              <p class="our-work-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis saepe esse, ea repudiandae architecto. Totam, possimus nihil et in pariatur praesentium rerum, quam cum, cupiditate modi voluptatibus aperiam a
+              </p>
+              </div>
+              <div class="portfolio-border">
+                <h2 class="portfolio-name">
+                  Проєкт <span lang="en">Boxes</span>
+                </h2>
+                <p class="porfolio-item">Додаток</p>
+              </div> </a>
+            </li>
+            <li class="our-works-item"> <a href="" class="link our-works-link">
+              <div class="about-background"> 
+                <img
+                class="our-work-img"
+                src="./image/portgolio/inspirarion.jpg"
+                alt="монитор"
+                width="370"
+              />
+              <p class="our-work-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis saepe esse, ea repudiandae architecto. Totam, possimus nihil et in pariatur praesentium rerum, quam cum, cupiditate modi voluptatibus aperiam a
+              </p>
+              </div>
+              <div class="portfolio-border">
+                <h2 lang="en" class="portfolio-name">
+                  Inspiration has no Borders
+                </h2>
+                <p class="porfolio-item">Веб-сайт</p>
+              </div> </a>
+            </li>
+            <li class="our-works-item"> <a href="" class="link our-works-link">
+              <div class="about-background">
+                <img
+                class="our-work-img"
+                src="./image/portgolio/limited-edition.jpg"
+                alt="розкрытый журнал"
+                width="370"
+              />
+              <p class="our-work-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis saepe esse, ea repudiandae architecto. Totam, possimus nihil et in pariatur praesentium rerum, quam cum, cupiditate modi voluptatibus aperiam a
+              </p>
+              </div>
+              <div class="portfolio-border">
+                <h2 class="portfolio-name">
+                  Видання <span lang="en">Limited Edition</span>
+                </h2>
+                <p class="porfolio-item">Дизайн</p>
+              </div> </a>
+            </li>
+            <li class="our-works-item"> <a href="" class="link our-works-link">
+              <div class="about-background">
+              <img
+                class="our-work-img"
+                src="./image/portgolio/project-lab.jpg"
+                alt="бирка с надписью"
+                width="370"
+              />
+              <p class="our-work-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis saepe esse, ea repudiandae architecto. Totam, possimus nihil et in pariatur praesentium rerum, quam cum, cupiditate modi voluptatibus aperiam a
+              </p>
+              </div>
+              <div class="portfolio-border">
+                <h2 class="portfolio-name">
+                  Проєкт <span lang="en">LAB</span>
+                </h2>
+                <p class="porfolio-item">Маркетинг</p>
+              </div> </a>
+            </li>
+            <li class="our-works-item"> <a href="" class="link our-works-link">
+              <div class="about-background">
+                <img
+                class="our-work-img"
+                src="./image/portgolio/growing.jpg"
+                alt="ноутбук в роботе"
+                width="370"
+              />
+              <p class="our-work-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis saepe esse, ea repudiandae architecto. Totam, possimus nihil et in pariatur praesentium rerum, quam cum, cupiditate modi voluptatibus aperiam </p>
+              </div>
+              <div class="portfolio-border">
+                <h2 lang="en" class="portfolio-name">Growing Business</h2>
+                <p class="porfolio-item">Додаток</p>
+              </div>
+            </li>
+          </ul>
+   </a>      </div>
+      </section>
+    </main>
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container footer-block">
+        <div class="fblock-left">
+        <a href="./index.html" lang="en" class="logo-web-footer link"
+        >Web<span class="logo-studio-footer">Studio</span></a>
+      <address class="address">
+        <ul class="list">
+          <li class="address-item">
+            <a
+              href="https://goo.gl/maps/Jku4d1xR5NEidK218"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Google maps"
+              class="address-contact link"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li class="address-item">
+            <a href="mailto:info@example.com" class="footer-contacts link"
+              >info@example.com</a
+            >
+          </li>
+          <li class="address-item">
+            <a href="tel:+380991111111" class="footer-contacts link"
+              >+38 099 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
+        </div>
+        <div class="fblock-center">
+          <p class="social-connect">приєднуйтесь</p>
+        <ul class="social-list list">
+        <li class="social-item">
+          <a href="" class="social-link">
+            <svg class="social-footer-icon">
+              <use href="./image/icon/sprites.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="" class="social-link">
+            <svg class="social-footer-icon">
+              <use href="./image/icon/sprites.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="" class="social-link">
+            <svg class="social-footer-icon">
+              <use href="./image/icon/sprites.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="" class="social-link">
+            <svg class="social-footer-icon">
+              <use href="./image/icon/sprites.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>  
+    <div class="subscribe">
+      <p class="subscribe-text">Підпишіться на розсилку</p>
+       <form class="subscribe-form" >
+         <label for="subscribe-email" class="subscribe-write"><span class="subscribe-write-text" >E-mail</span> 
+          <input type="email" name="email" id="subscribe-email" class="subscribe-add-mail">
+         </label>
+       <button type="submit" class="subscribe-btn">Підписатися 
+        <svg class="subsribe-btn-icon">
+          <use href="./image/icon/sprites.svg#icon-send"></use>
+        </svg>
+       </button>
+        </form>
+      </div> 
+      </div>
+    </footer>
+  </body>
+</html>
