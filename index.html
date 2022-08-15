@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -379,19 +380,19 @@
             <ul class="list">
               <li class="address__item">
                 <a href="https://goo.gl/maps/Jku4d1xR5NEidK218" target="_blank" rel="noopener noreferrer" title="Google maps"
-                  class="address-contact link">м. Київ, пр-т Лесі Українки, 26</a>
+                  class="address__map link">м. Київ, пр-т Лесі Українки, 26</a>
               </li>
               <li class="address__item">
-                <a href="mailto:info@example.com" class="footer-contacts link">info@example.com</a>
+                <a href="mailto:info@example.com" class="address__contact link">info@example.com</a>
               </li>
               <li class="address__item">
-                <a href="tel:+380991111111" class="footer-contacts link">+38 099 111 11 11</a>
+                <a href="tel:+380991111111" class="address__contact link">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="footer__block_second">
-          <p class="social-connect">приєднуйтесь</p>
+          <p class="footer__subtitle">приєднуйтесь</p>
           <ul class="social-list list">
             <li class="social-item">
               <a href="" class="social-link">
@@ -424,7 +425,7 @@
           </ul>
         </div>
         <div class="footer__block_third">
-          <p class="subscribe-text">Підпишіться на розсилку</p>
+          <p class="footer__subtitle">Підпишіться на розсилку</p>
           <form class="subscribe-form">
             <label for="subscribe-email" class="subscribe-write"><span class="subscribe-write-text">E-mail</span>
               <input type="email" name="email" id="subscribe-email" class="subscribe-add-mail">
@@ -471,7 +472,7 @@
         <label for="user-comment" class="caption-form">Коментар</label>
         <textarea name="user_comment" id="user-comment" placeholder="Введіть текст" class="caption-form-comment" ></textarea>
         <input type="checkbox" name="agree_license" id="agree-license" class="modal-form-check hidden-title" required>
-        <label for="agree-license" class="agreed-license">Погоджуюся з розсилкою та приймаю&nbsp<a href="" class="link">Умови договору</a></label>
+        <label for="agree-license" class="agreed-license">Погоджуюся з розсилкою та приймаю&nbsp<a href="" class="agreed-license__link link">Умови договору</a></label>
         <button type="submit" class="modal-send-btn">Відправити</button>
          </form>
       </div>  
